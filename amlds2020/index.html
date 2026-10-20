@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <base target="_blank">
+
+    <title>9223D (3943B) Fall 2020</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">9223D Fall 2020</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://piazza.com/class/kebsynviw252hd">Piazza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://newclasses.nyu.edu/portal/site/a6c2b58b-7461-4a32-88cc-5128bfa38ab6">NYU Classes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Previous
+                        Years
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="../amlds2019">2019</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- piazza.com/nyu/fall2020/csgy9223d piazza signup -->
+
+    
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">NYU CS-GY 9223D (3943B)<br>Algorithmic Machine Learning <br> and Data Science</h1>
+
+                <p class="lead text-muted">
+                    Advanced theory course exploring contemporary algorithmic techniques and recent research on computational methods that enable machine learning and data science at scale. 
+                </p>
+
+                <h5 class="instructors">
+                    <br/>
+                    <p><b>Course Team:</b></p>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <a href="https://www.chrismusco.com/"><img src="christophermusco.jpg" alt="Christopher Musco" height="150"></a>
+                            <div class="role">Professor</div>
+                            <a href="mailto:cmusco@nyu.edu">Christopher Musco</a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://alinebessa.com/"><img src="alinebessa.png" alt="Aline Bessa" height="150"></a>
+                            <div class="role">Project Mentor</div>
+                            <a href="mailto:aline.bessa@nyu.edu">Aline Besa</a>
+                        </div>
+                        <div class="col-sm">
+                            <img src="raphaelmeyer.jpg" alt="Raphael Meyer"  height="150">
+                            <div class="role">Undergrad Mentor</div>
+                            <a href="mailto:ram900@nyu.edu">Raphael Meyer</a>
+                        </div>
+                    </div>
+                </h5>
+            </div>
+        </section>
+
+        <div class="album py-3 bg-light">
+            <div class="container">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <h3 class="maintopic"><br>Administrative Information</h3>
+                        <p class="courseinfo">
+                            <b>Lectures:</b>  370 Jay St., Room 1201 and via Zoom (link on NYU Classes). <br>
+                            <em>Lecture component:</em> Wed. 11:00am-12:15pm. <br>
+                            <em>Flipped component:</em> Wed. 12:30pm-1:30pm. <br>
+                            <em>Recorded component:</em> Posted Thurs. by EOD. 
+                        </p>
+                        <p class="courseinfo">
+                            <b>Syllabus:</b> <a href="syllabus_2020.pdf"> here.</a> Please see for information on COVID-19 changes.</br>
+                            <b>Final project guidelines:</b> <a href="project_guidelines.pdf"> here.</a></br>
+                            <b>Midterm information and practice:</b> <a href="midterm_prep.pdf"> here.</a>
+                        </p>
+                        <p class="courseinfo">
+                            <b>Professor Office hours:</b> Thurs. 10am-12pm, <a href="https://nyu.zoom.us/my/cmusco">Zoom link</a>. <br> 
+                            <b>Raphael's Undergrad. Office hours:</b> Mon. 12-2pm,<a href="https://nyu.zoom.us/my/ram900"> Zoom link</a>.<br>     
+                            <b>Paper Reading Group:</b> Mon. 1-3pm via Zoom (link on NYU Classes).<br>
+                            <b>Piazza:</b> <a href="piazza.com/nyu/fall2020/csgy9223d">Sign-up Link</a>.<br>
+                            <b>Student run Slack:</b> <a href="https://join.slack.com/t/nyu-0mc6745/shared_invite/zt-hcmljyfm-CeIN9fpO0VIhYaUCxTMpvQ">Link</a>.<br>
+                                         
+
+                        </p>
+
+                        <p class="courseinfo">
+                            <b>Quizzes:</b> Weekly check-in quizzes will be administered via Google Forms. Link will be posted on this site. They must be completed by 11:00am ET the Wed. after they are posted.
+                        </p>
+                            
+                        <p class="courseinfo">
+                            <b>Homework:</b> Homework must be turned in to NYU Classes by the specified due date. 
+                            
+                            While not required, I encourage students to prepare problem sets in <a href="https://astrobites.org/2018/01/20/getting-started-with-latex/">LaTeX</a> or <a href="https://en.wikipedia.org/wiki/Markdown"> Markdown</a> (with <a href="http://support.typora.io/Math/">math support</a>.)
+                            You can use this <a href="template.tex">template</a> for LaTeX. While there is a learning curve for LaTeX (less for Markdown), it typically saves students time by the end of the semester! If you write problems by hand, please scan and upload as a PDF.
+                        </p>
+                        <p class="courseinfo"></p>
+                            <u>Collaboration is allowed on homework, but solutions and any code must be written-up independently</u>. Writing should not be done in parallel with others. Students must list collaborators on their problem sets (for each problem separately). See the <a href="syllabus_2020.pdf">syllabus</a> for full details.
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3 class="maintopic"><br>Course Summary</h3>
+                        <p class="courseinfo">
+                            <b>Prerequisites:</b> This course is mathematically rigorous, and is intended for graduate students and advanced undergraduates. Formally we require previous courses in machine learning, algorithm design and analysis, and linear algebra. Experience with probability and random variables is necessary. See the <a href="syllabus_2020.pdf">syllabus</a> for more details and email Prof. Musco if you have questions about your preparation for the course! 
+                        </p>
+                        <p class="courseinfo">
+                            <b>Coursework:</b> One meeting per week. Short weekly quiz due before next class (10% of grade). Problem sets every two weeks involving analysis and application of algorithmic methods learned in class, with some programming exercises (40% of grade). At-home midterm exam (15% of grade). Final project to be completed in groups of two (25% of grade). Class participation is the remaining 10% of the grade. Please consult the <a href="syllabus_2020.pdf"> formal syllabus</a> for more information.
+                        </p>
+
+                        <p class="courseinfo">
+                            <b>Resources:</b> There is no textbook to purchase. Course material will consist of my written lecture notes, as well as assorted online resources, including papers, notes from other courses, and publicly available surveys. Please refer to the course webpage before and after lectures to keep up-to-date as new resources are posted.
+                        </p>
+                        <p class="courseinfo"> 
+                            <b>Optional Reading Group:</b> It's an exciting time for research at the intersection of algorithm design and the data sciences. Most of the topics covered in this course are still the subject of active research. We will hold a reading group where students will present and discuss recent papers (<b>time TBA</b>). This is a great opportunity to learn extra material, learn to read papers, and find a project topic.
+                        </p>
+                        <!-- <p>
+                            <b>Homework:</b><br/>
+                            <a href=>Homework 1</a> (due Thursday, Sept. 26th by 11:59pm).<br/>
+                            <a href=>Homework 2</a> (due Thursday, Oct. 17th by 11:59pm).<br/>
+                            <a href=>Homework 3</a>, <a href="homeworks/UScities.txt">UScities.txt</a> (due Monday, Dec. 2nd by 11:59pm).<br/>
+                            <a href=>Homework 4</a> (due Monday, Dec. 16th by 11:59pm).
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-3 bg-light">
+            <div class="container">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Week #</th>
+                            <th scope="col">Topic</th>
+                            <th scope="col">Reading</th>
+                            <th scope="col">Homework</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr class="tablesection">
+                            <td colspan="4">The Power of Randomness</td>
+                        </tr>
+
+                        <tr class="oddrow">
+                            <th scope="row">1. 9/2</th>
+                            <td>
+                                <b>In class:</b> Concentration of random variables, applications to hashing<br/>
+                                <b>Supplemental:</b> Load balancing, the union bound. <a href="https://nyu.zoom.us/rec/share/7181ebCOwzp2X1P_ZLsiotxrZ7MKgf_X7gHKLcLlQntceb2Szpt1TUuo5CSyKkuy.XZC7KNMsgS8mi2vr">Link.</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec1.pdf">Lecture 1 notes</a> <a href="lectures/lec1_annotated.pdf">(annotated).</a> </li>
+                                    <li><a href="lectures/lec1_supp.pdf">Lecture 1 Supplemental notes.</a></li>
+                                    <br>
+
+                                    <li><a href="http://cs229.stanford.edu/section/cs229-prob.pdf">Probability review</a>! None of this should be new, but you might want to brush up if you haven't taken prob/stat in a while.</li>
+                                    <li><a href = https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec1.pdf>Typed lecture notes</a> covering hashing topics discussed in class, and proving 2-universality of random linear hash function.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="https://forms.gle/eiBoB5soEE5zXkGw7">Week 1 Check-in quiz</a>, due Wed. 9/9.
+                                    </li>
+                                    <li>
+                                        <a href="homeworks/hw1.pdf">Problem Set 1</a>, due Fri. 9/18.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="offday evenrow">
+                            <th scope="row">9/9</th>
+                            <td>No Class, Monday Schedule for Labor Day</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="oddrow">
+                            <th scope="row">2. 9/16</th>
+                            <td>
+                                <b>In Class:</b> Sketching and streaming algorithms, MinHash.
+                                <b>Supplemental:</b> Exponential tail bounds (Chernoff + Bernstein)<br/>
+                            </td>
+                            <td>                                
+                                <ul>
+                                    <li><a href="lectures/lec2.pdf">Lecture 2 notes</a> <a href="lectures/lec2_annotated.pdf">(annotated)</a>. </li>
+                                    <li><a href="lectures/lec2_supp.pdf">Lecture 2 Supplemental notes</a> <a href="lectures/lec2_supp_annotated.pdf">(annotated)</a>. </li>
+                                    <br>
+
+                                    <li><a href="http://infolab.stanford.edu/~ullman/mmds/ch3.pdf">Book chapter</a> on Jaccard similarity, MinHash, etc.</li>
+                                    <li>Original <a href="resources/FlajoletDurand.pdf">paper</a> giving a loglog(n) space algorithm for the distinct elements problem. Follow-up work on state-of-the-art <a href="resources/hyperloglog.pdf">Hyperloglog algorithm.</a> </li>
+                                    <li>Cool <a href="https://www.vldb.org/pvldb/vol11/p1674-rong.pdf">paper</a> on an application of MinHash to detecting seismic events.
+                                    </li>
+                                    <li>Additional reading on concentration bounds can be found in Terry Tao's <a href="https://terrytao.wordpress.com/2010/01/03/254a-notes-1-concentration-of-measure/">notes</a>.</li>
+                                    <li>For a proof of the "power of two choices'' result, see Section 2 in this <a href="http://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf">survey</a>.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="https://forms.gle/wL5wqbQ739d5t8DA8">Week 2 Check-in quiz</a>, due Wed. 9/23.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="evenrow">
+                            <th scope="row">3. 9/23</th>
+                            <td>
+                                <b>In class:</b> High-dimensional geometry<br/>
+                                <b>Supplemental:</b> The Johnson-Lindenstrauss lemma + applications
+                            </td>
+                            <td>
+                                <!-- 
+                                <a href="lectures/lec3_annotated.pdf">(annotated)</a> -->
+                                <ul>
+                                    <li><a href="lectures/lec3.pdf">Lecture 3 notes</a> <a href="lectures/lec3_annotated.pdf">(annotated).</a></li>
+                                    <li><a href="lectures/lec3_supp.pdf">Lecture 3 Supplemental notes</a> <a href="lectures/lec3_supp_annotated.pdf">(annotated)</a>. </li>
+                                    <li><a href="lectures/aline_lecture.pdf">Aline's Lecture 3 notes</a>.</li>
+                                    <br>
+
+                                    <li>Much of the lecture content was adapted from Chapter 2 of  <a href="https://www.cs.cornell.edu/jeh/book.pdf">Foundations of Data Science</a>. It's a great read!</li>
+                                    <li><a href = https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec10.pdf>Typed lecture notes</a> on the Johnson-Lindenstrauss lemma. Ignore Section 4.1 -- we will cover that in a future lecture. 
+                                    </li>
+                                    <li>Helpful <a href="https://www.cs.cmu.edu/~avrim/Randalgs11/lectures/lect0314.pdf">notes</a> on the JL Lemma by Anupam Gupta.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="homeworks/hw2.pdf">Problem Set 2</a>, due Fri. 10/9.
+                                    </li>
+                                    <li>
+                                        <a href="https://forms.gle/JPXWLoCGxiu5qFJz8">Week 3 Check-in quiz</a>, due Wed. 9/30.
+                                    </li>
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="oddrow">
+                            <th scope="row">4. 9/30</th>
+                            <td>
+                                <b>In class:</b> Randomized near neighbor search, analyzing locality sensitive hash functions<br/>
+                                <b>Supplemental:</b> None
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec4.pdf">Lecture 4 notes</a> <a href="lectures/lec4_annotated.pdf">(annotated).</a></li>
+                                    <br>
+                                    <li>Good overview of similarity estimation and locality sensitive hashing in Chapter 3 <a href="http://www.mmds.org/">here</a>. 
+                                    </li>
+                                    <li>
+                                    These <a href="http://web.stanford.edu/class/cs246/slides/03-lsh.pdf">lecture notes</a> are also helpful. These resources use slightly different language (and a slightly different version of MinHash) than I used in class.
+                                    </li>
+                                    <li>
+                                        If you want to learn more about worst-case runtime guarantees (like the Indyk-Motwani result mentioned in class) take a look at my <a href="https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec12.pdf">typed lecture notes</a>.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="https://forms.gle/pQDWucz6wq2RXBJu6">Week 4 Check-in quiz</a>, due Wed. 10/7.
+                                    </li>
+                                    <li><b>Optional  Reading Group paper:</b> <a href="https://openreview.net/pdf?id=SyVOjfbRb">LSH-Sampling Breaks the Computational Chicken-and-egg Loop in Adaptive Stochastic Gradient Descent</a></li>
+                                    <li>Select project partner by 10/14. See project guideline document for details.</li>
+                                </ul>
+                            </td>    
+                        </tr>
+                        <tr class="tablesection">
+                                <td colspan="4">First-Order Optimization</td>
+                        </tr>
+
+                        <tr class="evenrow">
+                            <th scope="row">5. 10/7</th>
+                            <td>
+                                <b>In class:</b> Analyzing gradient descent and project gradient descent for convex problems<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec5.pdf">Lecture 5 notes</a> <a href="lectures/lec5_annotated.pdf">(annotated).</a></li>
+                                    <br>
+                                    <li>If you need to freshen up on linear algebra, now is good time! This <a href="http://web.stanford.edu/class/cs246/handouts/CS246_LinAlg_review.pdf">quick reference</a> from Stanford mostly covers what we need.
+                                    </li>
+                                    <li>
+                                        Good <a href="https://link.springer.com/book/10.1007/978-0-387-40065-5">book</a> on optimization which is freely available online through NYU libraries.
+                                    </li>
+                                    <li>
+                                        Excellent <a href="https://people.csail.mit.edu/madry/6S978/">lecture notes</a> from Aleksander Mądry for more reading on analyzing gradient descent.
+                                    </li>  
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                    <a href="https://forms.gle/CALb7vhrkGFWKm1fA">Week 5 Check-in quiz</a>, due by class on Wed. 10/14.
+                                    </li>
+                                    <li>Choose project partner and email me by Wed. 10/14.</li>
+                                    <li><b>No Reading Group Monday 10/12 due to Columbus Day.</b></li>
+                                </ul> 
+                            </td>
+                        </tr>
+
+                        <tr class="oddrow">
+                            <th scope="row">6. 10/14</th>
+                            <td>
+                                <b>In class:</b> Online and stochastic gradient descent<br/>
+                                <!-- <b>Supplemental:</b> Gradient descent for non-convex problems -->
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec6.pdf">Lecture 6 notes</a> <a href="lectures/lec6_annotated.pdf">(annotated).</a></li>
+                                    <br>
+                                    <li>
+                                        Elad Hazan's <a href="https://arxiv.org/pdf/1909.05207.pdf">book</a> on online convex optimization is a great reference if you are interested in this topic.
+                                    </li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><b>Optional  Reading Group paper:</b> <a href="https://people.cs.umass.edu/~mcgregor/papers/12-dynamic.pdf">Analyzing Graph Structure via Linear Measurements</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr class="evenrow">
+                            <th scope="row">7. 10/21</th>
+                            <td> 
+                                    <b>In class:</b> Smoothness, strong convexity, conditioning.<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec7.pdf">Lecture 7 notes</a> <a href="lectures/lec7_annotated.pdf">(annotated).</a></li>
+                                    <br>
+                                    <li>Moritz Hardt's <a href="https://ee227c.github.io/notes/ee227c-notes.pdf">lecture notes</a> with proofs of gradient descent convergence in all the regimes discussed in class.
+                                    </li>
+                                    <li>
+                                        Sébastien Bubeck's convex optimization <a href="https://arxiv.org/pdf/1405.4980.pdf">book</a> mentioned in class. Fairly technical, but great reference. 
+                                    </li>  
+                                </ul>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+
+                        <tr class="oddrow">
+                            <th scope="row">8. 10/28</th>
+                            <td>
+                                <b>In class:</b> Preconditioning, acceleration, coordinate descent, non-convex optimization<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec8.pdf">Lecture 8 notes</a> <a href="lectures/lec8_annotated.pdf">(annotated).</a></li>
+                                    <br>
+                                    <li>
+                                        <a href=" https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/">Proof</a> of accelerated gradient descent for general convex functions.
+                                    </li>
+                                    <li>
+                                        Diverse, theory-leaning <a href="https://www.offconvex.org/">blog</a> which discusses lots of problems and approaches in understanding the optimization of non-convex problems.
+                                    </li>
+                                    <li>
+                                        Useful <a href="http://cs229.stanford.edu/section/cs229-linalg.pdf">document</a> for linear algebra review. Section 3 is especially important.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Complete midterm by midnight ET on Fri. 10/30. 
+                                    </li>
+                                    <li>
+                                        One page project proposal due Wed. 11/04. 
+                                    </li>
+                                </ul>
+
+                            </td>
+                        </tr>
+
+                        <tr class="tablesection">
+                                <td colspan="4">Spectral Methods and Linear Algebra</td>
+                        </tr>
+
+                        <!-- Learning from experts + multiplicative weights -->
+                        <tr class="evenrow">
+                                <th scope="row">9. 11/04</th>
+                                <td> 
+                                    <b>In class:</b> Singular value decomposition, Power Method<br/>
+                                    <b>Supplemental:</b> Krylov subspace methods and a taste of approximation theory
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><a href="lectures/lec9.pdf">Lecture 9 notes</a><a href="lectures/lec9_annotated.pdf">(annotated).</a> 
+                                        <li><a href="lectures/lanczos_method.html">Supplemental Lanczos method notes</a></li></li><br>
+
+                                            <li>Detailed <a href="https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec14.pdf">notes</a> on power method analysis. This should be easier to follow than my lecture proof!</li>
+                                            <li>
+                                                See Section 3.7 in <a href="https://www.cs.cornell.edu/jeh/book.pdf}">Foundations of Data Science</a> for an analysis of power method that does not involve singular value gaps.
+                                            </li>
+                                            <li>Student recommended <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&app=desktop">video lectures</a> that give nice intuitive introductions to linear algebra concepts.</li>
+                                            <li>Read <a href="https://www.cs.cornell.edu/jeh/book.pdf}">Foundations of Data Science, Chapter 3</a> for more on singular value decomposition and low-rank approximation.</li>
+                                            <li>Other good notes <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">here</a> and <a href="http://web.stanford.edu/class/cs168/l/l9.pdf">here</a>.</li>
+                                    </ul>
+                                    <!-- 
+                                    <a href="lectures/lec9_annotated.pdf">(annotated)</a> -->
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            <a href="https://forms.gle/MyVCGfd7YHFhkcZV8">Week 9 Check-in quiz</a>, due Thurs. 11/12.  
+                                        </li>
+                                        <li>
+                                            <a href="homeworks/hw3.pdf">Problem Set 3</a>, due Wed. 11/25. Required data file <a href="homeworks/UScities.txt">UScities.txt</a>. <a href="lectures/lanczos_method.html">Required reading</a>for Problem 1. You will likely want to use Claim 4.
+                                        </li>
+                                    </ul>
+                                </td>
+                        </tr>
+
+                        <tr class="oddrow">
+                            <th scope="row">10. 11/11</th>
+                            <td> 
+                                <b>In class:</b> Spectral graph theory and spectral clustering, generative models for networks, stochastic block model<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec10.pdf">Lecture 10 notes.</a> <a href="lectures/lec10_annotated.pdf">(annotated).</a></li><br>
+                                    <li>
+                                        For more details, consult written notes on the <a href="https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec14.pdf">stochastic block model</a>.
+                                    </li>
+                                    <li>
+                                        Wayne Zachary's <a href="http://www1.ind.ku.dk/complexLearning/zachary1977.pdf">Karate Club paper</a>.
+                                    </li>
+                                    <li>
+                                        Stanford <a href="http://web.stanford.edu/class/cs168/l/l11.pdf">lecture notes</a> introducing spectral graph theory.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><b>Optional  Reading Group paper:</b> <a href="https://www.cs.rutgers.edu/~farach/pubs/FrequentStream.pdf">Finding Frequent Items in Data Streams</a></li>
+                                </ul>
+                                <!-- <ul>
+
+                                    <li>
+                                        See Section 6.4 in <a href="https://arxiv.org/pdf/1309.4882.pdf">Approximation Theory and the Design of Fast Algorithms</a> for a simple analysis of the Lanczos method.
+                                    </li>
+                                </ul> -->
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr class="evenrow">
+                            <th scope="row">11. 11/18</th>
+                            <td>
+                                <b>In class:</b> Randomized numerical linear algebra, sketching for linear regression, &epsilon;-nets arguments<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec11.pdf">Lecture 11 notes.</a> <a href="lectures/lec11_annotated.pdf">(annotated).</a></li><br>
+                                    <li>
+                                        My <a href="https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec11.pdf">written notes</a> on sketched regression and &epsilon;-nets.
+                                    </li>
+                                    <li>
+                                        Jelani Nelson's <a href="http://people.seas.harvard.edu/~minilek/cs229r/fall15/lec.html">course notes</a> from Harvard with a lot more on randomized linear algebra, including methods for sparse JL sketching and randomized low-rank approximation. 
+                                    </li>
+                                    <li>
+                                        &epsilon;-net arguments are used all over the place in learning theory, algorithm design, and high dimensional probability. Here's an example of how they appear in a
+                                        <a href="https://www2.cs.duke.edu/courses/spring07/cps296.2/scribe_notes/lecture09.pdf">different context</a>.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+
+                        <tr class="tablesection">
+                                <td colspan="4">Fourier Methods</td>
+                        </tr>
+                        <tr class="oddrow">
+                            <th scope="row">12.  11/25</th>
+                            <td>
+                                <b>In class:</b> Sampling from vectors, Fast Johnson-Lindenstrauss<br/>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="lectures/lec12.pdf">Lecture 12 notes.</a>
+                                        <a href="lectures/lec12_annotated.pdf">(annotated).</a></li><br>
+                                    <li>
+                                        Original FJLT
+                                        <a href="https://www.cs.princeton.edu/~chazelle/pubs/FJLT-sicomp09.pdf">paper</a>.
+                                    </li>
+                                </ul>
+                                
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="homeworks/hw4.pdf">OPTIONAL Problem Set 4</a>, due Wed. 12/16.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr class="evenrow">
+                            <th scope="row">13. 12/2</th>
+                            <td>
+                                <b>In class:</b> Sparse recovery and compresses sensing, restricted isometry property, basis pursuit
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec13.pdf">Lecture 13 notes.</a> <a href="lectures/lec13_annotated.pdf">(annotated).</a></li><br>
+                                    </li><br>
+                                <li>
+                                    <a href="https://www.cs.princeton.edu/courses/archive/fall18/cos521/Lectures/lec21.pdf">Written notes</a> on compressed sensing.
+                                </li>
+                                <li>
+                                    Lots of great resources under weeks 8 and 9 of Stanford's
+                                    <a href="https://web.stanford.edu/class/cs168/">Algorithmic Toolbox</a> course.
+                                </li>
+                                </ul>
+                            </td>
+                            <td></td>
+                        </tr>
+
+                        <tr class="oddrow">
+                            <th scope="row">14. 12/9</th>
+                            <td>
+                                <b>In class:</b> Leverage scores, spectral sparsifiers, and a taste of my research. 
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="lectures/lec14.pdf">Lecture 14 notes.</a> <a href="lectures/lec14_annotated.pdf">(annotated).</a></li><br>
+                                    </li><br>
+                                </ul>
+                            </td>
+                            <td>
+                                <!-- <a href="lectures/lec6.pdf">Lecture 6 notes.</a><br/>
+                                <a href="lectures/lec6_annotated.pdf">(annotated)</a> -->
+                            </td>
+                            <td>
+                                <!-- <ul>
+                                    <li>Moritz Hardt's <a href="https://ee227c.github.io/notes/ee227c-notes.pdf">lecture notes</a> with proofs of gradient descent convergence in all the regimes discussed in class.
+                                    </li>
+                                </ul> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- <footer class="container">
+        <p>&copy 2017-2018</p>
+    </footer> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
